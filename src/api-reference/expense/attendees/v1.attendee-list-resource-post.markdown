@@ -3,12 +3,17 @@ title: Attendee List Resource Post
 layout: reference
 ---
 
+{% include deprecation-alert.html %}
 
 This resource supports the following POST actions:
 
 * Post New Attendee List
 * Post Attendee Update List
 * Post Attendee Inactivation List
+
+## Version
+
+1.0
 
 ## Post new attendee list
 
@@ -370,7 +375,7 @@ Content-Type: application/xml
 </attendee-batch-result>
 ```
 
-[1]: /api-reference/expense/attendee-types/attendee-type-resource.html
+[1]: /api-reference/expense/attendee-types/v1.attendee-type-resource.html
 [2]: http://en.wikipedia.org/wiki/ISO_4217
 [3]: /api-reference/expense/expense-report/expense-form.html
 [4]: /api-reference/expense/expense-report/expense-form-field.html

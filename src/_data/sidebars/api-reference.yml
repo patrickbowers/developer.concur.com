@@ -123,9 +123,9 @@
       - title: Allocations
         url: /api-reference/expense/allocations/expense-allocations.html
       - title: Attendee Type
-        url: /api-reference/expense/attendee-types/attendee-type-resource.html
+        url: /api-reference/expense/attendee-types/v3.attendee-type-resource.html
       - title: Attendees
-        url: /api-reference/expense/attendees/
+        url: /api-reference/expense/attendees/v3.attendees.html
       - title: Digital Tax Invoices
         url: /api-reference/expense/digital-tax-invoices/digital-tax-invoice.html
       - title: Company Card Transactions

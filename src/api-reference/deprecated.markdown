@@ -1,14 +1,12 @@
-- title: API Reference (Deprecated)
-  url: /api-reference-deprecated/
-- title: Old Auth
-  url: /api-reference-deprecated/old-auth/old-auth.html
-- title: v1.0 - Attendees
-  url: ''
-  children:
-      - title: Attendee List Resource
-        url: /api-reference/expense/attendees/v1.attendee-list-resource.html
-      - title: Attendee List Resource Post
-        url: /api-reference/expense/attendees/v1.attendee-list-resource-post.html
+---
+title: List of deprecated APIs
+layout: reference
+---
+
+/api-reference-deprecated/old-auth/old-auth.html
+* [Attendee List Resource v1](./api-reference/expense/attendees/v1.attendee-list-resource.html)
+* [Attendee List Resource Post v1](./api-reference/expense/attendees/v1.attendee-list-resource-post.html)
+
 - title: v1.0 - Attendee Types
   url: ''
   children:
