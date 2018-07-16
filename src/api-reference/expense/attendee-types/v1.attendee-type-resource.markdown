@@ -5,22 +5,80 @@ layout: reference
 
 {% include deprecation-alert.html %}
 
-## Description
-The Attendee Type resource represents the type of attendee as configured in Concur.
-
 ## Version
 1.0
 
+## Description
+
+The Attendee Type resource represents the type of attendee as configured in Concur.
+
 ## URI
-`https://www.concursolutions.com/api/expense/attendee/v1.0/type`
 
-## Operations
-[Get list of attendee types][2]
+```
+https://www.concursolutions.com/api/expense/attendee/v1.0/type
+```
 
-## See also
-* [Attendee][3]
-* [Attendee List][4]
+## Get list of attendee types
 
-[2]: ./api-reference/expense/attendee-types/v1.attendee-type-resource-get.html
-[3]: ./api-reference-deprecated/version-two/attendees/attendee-resource.html
-[4]: ./api-reference/expense/attendees/v1.attendee-list-resource.html
+## Request
+
+### Request parameters
+
+None.
+
+### Headers
+
+#### Content type
+
+application/xml
+
+#### Authorization header
+
+The authorization header must have an OAuth token for a valid Concur user.
+
+The OAuth consumer must have one of the following user roles in Concur: Company Administrator or Web Services Administrator for Professional, or Can Administer for Standard. These roles allow the user to manage data for the entire company.
+
+## Response
+
+* [HTTP Status Codes][./tools-support/reference/http-codes.html]
+* [Attendee List Errors][./api-reference-deprecated/version-two/attendees/index.html]
+
+### Content body
+
+This request will return an **attendee-types** parent element containing an **attendee-type** child element for each attendee type.
+
+#### attendee-type elements
+
+Element|Description
+---|---
+type|The attendee type code.
+name|The attendee type name.
+
+## Examples
+
+### XML Example Request
+
+```
+GET https://www.concursolutions.com/api/expense/attendee/v1.0/type HTTP/1.1
+Authorization: OAuth {access token}
+```
+
+### XML Example of Successful Response
+
+```
+HTTP/1.1 200 OK
+Content-Type: application/xml
+```
+
+```xml
+<attendee-types xmlns="http://www.concursolutions.com/api/expense/attendee/2010/05" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <attendee-type>
+    <type>BUSGUEST</type>
+    <name>Business Guest</name>
+  </attendee-type>
+  <attendee-type>
+    <type>EMPLOYEE</type>
+    <name>Employee</name>
+  </attendee-type>
+</attendee-types>
+```

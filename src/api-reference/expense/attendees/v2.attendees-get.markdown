@@ -2,8 +2,6 @@
 title: Attendee v2 Get attendees
 layout: reference
 ---
-
-
 ##  Description
 
 Retrieves the attendees matching the specified search criteria. Developers can specify one or more External IDs or the Attendee ID to search the Expense database.

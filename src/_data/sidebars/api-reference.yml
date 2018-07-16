@@ -161,7 +161,7 @@
       - title: Quick Expense
         url: /api-reference/expense/quick-expense/
 - title: Receipt Image
-  url: /api-reference/image/
+  url: /api-reference/image/v3.image.html
 - title: Insights
   url: ''
   children:

@@ -3,12 +3,14 @@ title: Post image data
 layout: reference
 ---
 
+{% include deprecation-alert.html %}
+
 ## Post Receipt Image
 
 ### Description
 Uploads a receipt image and associates it with the OAuth consumer. The user can view the image in the receipt management section of Concur.
 
-**NOTE**: The documentation for the version 3.0 Receipt Images resource can be found [here](/api-reference/image/).
+**NOTE**: The documentation for the version 3.0 Receipt Images resource can be found [here](/api-reference/image/v3.image.html).
 
 ### Post Receipt Image Request
 

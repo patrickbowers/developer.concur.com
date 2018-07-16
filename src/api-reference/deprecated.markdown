@@ -3,17 +3,10 @@ title: List of deprecated APIs
 layout: reference
 ---
 
-/api-reference-deprecated/old-auth/old-auth.html
-* [Attendee List Resource v1](./api-reference/expense/attendees/v1.attendee-list-resource.html)
-* [Attendee List Resource Post v1](./api-reference/expense/attendees/v1.attendee-list-resource-post.html)
+* [Authorization](./api-reference-deprecated/old-auth/old-auth.html)
+* [Attendee List Resource v1 v1](./api-reference/expense/attendees/v1.attendee-list-resource.html)
+* [Attendee Type Resource v1](./api-reference/expense/attendee-types/attendee-types/v1.attendee-type-resource.html)
 
-- title: v1.0 - Attendee Types
-  url: ''
-  children:
-      - title: Attendee Type Resource
-        url: /api-reference/expense/attendee-types/attendee-types/v1.attendee-type-resource.html
-      - title: Get attendee types
-        url: /api-reference/expense/attendee-types/v1.attendee-type-resource-get.html
 - title: v1.0 - Imaging Web Service
   url: ''
   children:

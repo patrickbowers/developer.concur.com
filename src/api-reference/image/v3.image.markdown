@@ -12,6 +12,7 @@ layout: reference
 * [Schema](#schema)
 
 ### Version
+
 3.0
 
 1.0 documentation is available [here][4]  
@@ -24,7 +25,7 @@ layout: reference
 
     GET  /api/v3.0/expense/receiptimages
 
-        
+
 ### Parameters
 
 Name | Type | Format | Description
@@ -114,4 +115,3 @@ Name | Type | Format | Description
 
 [4]: /api-reference-deprecated/version-one/Image/index.html
 [5]: /api-reference-deprecated/version-one/Image/image-url-resource.html
-

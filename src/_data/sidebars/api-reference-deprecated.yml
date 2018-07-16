@@ -7,15 +7,11 @@
   children:
       - title: Attendee List Resource
         url: /api-reference/expense/attendees/v1.attendee-list-resource.html
-      - title: Attendee List Resource Post
-        url: /api-reference/expense/attendees/v1.attendee-list-resource-post.html
 - title: v1.0 - Attendee Types
   url: ''
   children:
       - title: Attendee Type Resource
         url: /api-reference/expense/attendee-types/attendee-types/v1.attendee-type-resource.html
-      - title: Get attendee types
-        url: /api-reference/expense/attendee-types/v1.attendee-type-resource-get.html
 - title: v1.0 - Imaging Web Service
   url: ''
   children:
